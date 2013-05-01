@@ -8,8 +8,8 @@
   * This program was written to make reading and writing to a SQLite database easy.
  * 
  * Requirements: 
- *	   .Net Runtime Files
- *    System.Data.SQLite.dll
+ *  .Net Runtime Files
+ *  System.Data.SQLite.dll
  * 
  */
 using System;
