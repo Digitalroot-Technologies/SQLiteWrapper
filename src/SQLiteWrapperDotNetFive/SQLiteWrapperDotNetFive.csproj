@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>SQLiteWrapperDotNetFive</AssemblyName>
+    <LangVersion>9</LangVersion>
+    <PackageId>SQLiteWrapperDotNetFive</PackageId>
+    <RootNamespace>SQLiteWrapperDotNetFive</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <Copyright>Copyright © Digitalroot Technologies 2008 - 2021</Copyright>
+    <PackageProjectUrl>https://github.com/Digitalroot-Technologies/SQLiteWrapper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Digitalroot-Technologies/SQLiteWrapper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIcon>dt_logo3.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageTags>digitalroot, SQLite</PackageTags>
+    <Authors>Digitalroot</Authors>
+    <Company>Digitalroot Technologies</Company>
+    <Product>SQLiteWrapper</Product>
+    <Description>This utlity class was written to make reading and writing to a SQLite database easy.</Description>
+    <PackageReleaseNotes>Port to .Net 5</PackageReleaseNotes>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageVersion>1.0.0</PackageVersion>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.115" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="dt_logo3.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
